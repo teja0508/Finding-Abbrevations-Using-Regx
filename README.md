@@ -2,7 +2,7 @@
 
 A tool to find and expand abbreviations within a string. Designed for scientific writing.
 
-[![Build Status](https://travis-ci.org/NBCLab/abbr.svg?branch=master)](https://travis-ci.org/NBCLab/abbr) [![Coverage Status](https://coveralls.io/repos/github/NBCLab/abbr/badge.svg?branch=master)](https://coveralls.io/github/NBCLab/abbr?branch=master)
+
 
 abbr is an abbreviation of "abbreviations." It is a regular expression based tool to find and expand abbreviations in text, and it is designed for use with scientific writing.
 Use cases may include counting terms within a scientific article when the relationship between full term and abbreviation is not known ahead of time or improving meta-analytic estimates of term frequency.
@@ -53,14 +53,3 @@ from abbr import expandall
 text = expandall(text)
 ```
 
-## Next steps
-Ultimately, we would like to shift away from regular expressions toward NLP and ML, but we have no immediate plans to do so. If you would like to help with this transition, feel free to open a pull request!
-
-## Reporting Issues and Feature Requests
-We welcome all issue reports and pull requests! When opening an issue, we ask that you provide all necessary detail to reproduce the bug. Specifically:
-
-1. Expected result
-2. Steps you took to achieve expected result
-3. Actual result
-
-If we can reproduce your error, there is a much greater chance we can help to fix it!
